@@ -4,75 +4,71 @@ import { Col, Row, Grid } from "react-native-easy-grid";
 export default function NumberButtons() {
     return (
         <View style={styles.container}>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
-  <Text style={styles.buttonText}>1</Text>
-  
-</TouchableHighlight>
-<TouchableHighlight onPress={()=>{}} style={styles.buttonTouch}>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
   <Text style={styles.buttonText}>1</Text>
   
 </TouchableHighlight>
 
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
+<TouchableHighlight onPress={()=>{console.log('test');}} style={styles.buttonTouch} underlayColor={'red'}>
+  <Text style={styles.buttonText}>1</Text>
+  
+</TouchableHighlight>
         </View>
     )
 }
@@ -80,25 +76,25 @@ export default function NumberButtons() {
 const styles = StyleSheet.create({
 
     container:{
-        flex:1,
+        
+        height:'70%',
+     
         flexDirection:"row",
-        justifyContent:'flex-start',
+        justifyContent:'center',
         flexWrap:'wrap',
-        backgroundColor:"#A7B4BB"
+
+        backgroundColor:"green",
         
     },
     buttonTouch:{
-        padding:40,
-        paddingLeft:47.2,
-        paddingRight:47.2,
+        width:"33%",
+        alignItems:'center',
+        height:'20%',
         backgroundColor:"#374352",
         borderColor:"#A7B4BB",
         borderWidth:0.2,
         borderRadius:2,
-        
-        // marginLeft:15,
-        // marginRight:15,
-        // marginTop:15,
+
         justifyContent:'center',
 
     },

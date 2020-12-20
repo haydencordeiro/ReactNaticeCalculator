@@ -13,7 +13,7 @@ export default function Header() {
 const styles = StyleSheet.create({
     header: {
         
-        height:210,
+        height:"30%",
       backgroundColor:'#3A4655',
     //   justifyContent:'center',
       alignItems:'flex-end',
