@@ -28,7 +28,7 @@ const App = () => {
       <SafeAreaView>
         
       {/* <Header></Header> */}
-      <DisplayInp></DisplayInp>
+      {/* <DisplayInp></DisplayInp> */}
       <NumberButtons></NumberButtons>
       </SafeAreaView>
     </>
